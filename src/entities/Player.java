@@ -25,6 +25,7 @@ public class Player extends Caracter
 	public void draw(Graphics g) 
 	{
 		g.setColor(Color.RED);
+		
 		g.fillRect(pixel.x, pixel.y, width, height);
 	}
 
@@ -37,8 +38,6 @@ public class Player extends Caracter
 			move();
 		
 		me.setLocation(pixel.x, pixel.y);
-//		System.out.println(node);
-//		System.out.println(pixel);
 	}
 
 	public boolean haveToMove()
