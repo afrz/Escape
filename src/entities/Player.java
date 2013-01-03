@@ -24,7 +24,7 @@ public class Player extends Caracter
 
 	public void draw(Graphics g) 
 	{
-		g.setColor(Color.RED);
+		g.setColor(Color.DARK_GRAY);
 		
 		g.fillRect(pixel.x, pixel.y, width, height);
 	}
