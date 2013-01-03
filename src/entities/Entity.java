@@ -7,7 +7,7 @@ import java.awt.Rectangle;
 
 import levels.LevelsData;
 
-
+/** Entity class */
 public class Entity  implements Comparable
 {
 	protected Game game;
